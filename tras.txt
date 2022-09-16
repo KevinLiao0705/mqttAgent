@@ -1,0 +1,58 @@
+struct EeData
+{
+  int chksum = 234;
+  char _char = 'a';
+  unsigned char _uchar = 'b';
+  int8_t _int8_t = -25;
+  uint8_t _uint8_t = 134;
+  int32_t _int32_t = -256;
+  uint32_t _uint32_t = 4294967200;
+  float _float = 1.234;
+  double _double = 2.468;
+
+  char _charA[12] = "12345";
+  unsigned char _ucharA[12] = "abcde";
+  int8_t _int8_tA[4] = {-25, 119, 23, -4};
+  uint8_t _uint8_tA[4] = {134, 233, 1, 222};
+  int32_t _int32_tA[4] = {-256, -111111, 3276888, 26777};
+  uint32_t _uint32_tA[4] = {4294967200, 2222, 44555, 66666};
+  float _floatA[4] = {1.234, 2.444, 6.7888, 6.789};
+  double _doubleA[4] = {2.468, 3,  6.56, 4344.555};
+
+  char sockComBoudrate[10] = "115200";
+  char sockComParity[8] = "None";
+  //=================================
+  uint8_t ntp_enable_f = 0;
+  uint8_t mqtt_enable_f = 0;
+  //=======================
+  char softAp_ssid[32] = "kevin ESP8266";
+  char softAp_password[32] = "12345678";
+  //=======================
+  char wifi_ssid[32] = "kevin ASUS";
+  char wifi_password[32] = "0000";
+  int wifiReconnectTime = 10000;  //unit 1ms
+  int wifiCheckStatusTime = 1000; //unit 1ms
+  uint8_t wifiConnectTimeOut_wifiMode = 21;
+  uint8_t wifiConnectBreak_wifiMode = 21;
+  uint8_t powerOn_wifiMode = 21;
+  uint8_t wifiStartWithScan_f = 1;
+  uint8_t serverEnable_f = 1;
+  //=======================
+  char ntpServerAddress[32] = "pool.ntp.org";
+  int ntpSyncPeriod = 60; //in second
+  uint8_t ntpTimeZone = 8;
+  uint8_t ntpEnable_f = 1;
+  //========================
+
+  char mqttServer[32] = "118.163.89.29";   // MQTT伺服器位址
+  int mqttPort = 1883;                     // MQTT port
+  char mqttUserName[32] = "kevin";         // 使用者名稱，。
+  char mqttPassword[32] = "xcdswe32@";     // MQTT密碼
+  char mqttClientId[32] = "Kevin_esp8266"; // 用戶端ID，隨意設定。
+  int mqttConnectTrig_dly_k = 10000;       //unit = ms
+  uint8_t mqttConnectAfterTimeSync_f=1;    
+  //========================
+  char userSetPassword[16] = "0000";    
+  char advSetPassword[16] = "0000";    
+
+};

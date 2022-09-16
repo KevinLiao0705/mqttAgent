@@ -1,0 +1,11 @@
+Redis Database Instruction:
+    1. jid set
+        key: set~jid~<className>~<lsName>
+            for example : set~jid~AgentObject~agentLs
+        value: Set of JID
+
+    2: jid hash
+        key: hash~jid~<JID>
+            for example : set~jid~AgentObject~agentLs
+        value: Set of JID
+

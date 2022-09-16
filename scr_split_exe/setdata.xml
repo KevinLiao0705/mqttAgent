@@ -1,0 +1,45 @@
+[winFrame_bm]	<0>
+[winFrame_wm]   	<0>
+[winFrame_hm]   	<0>      
+[linuxWin_f]		<1>
+[localNet] <192.168.0.31~255.255.255.0~192.168.0.1~192.168.0.254>
+[kvmRxNet] <192.168.0.120~255.255.0.0~192.168.0.1~192.168.0.254>
+[kvmNet1] <192.168.0.121~255.255.0.0~192.168.0.1~192.168.0.254>
+[rs232Net1] <192.168.0.7~255.255.0.0~192.168.0.1~1235>
+[kvmNet2] <192.168.0.50~255.255.0.0~192.168.0.1~192.168.0.254>
+[rs232Net2] <192.168.0.7~255.255.0.0~192.168.0.1~1235>
+[kvmNet3] <192.168.0.50~255.255.0.0~192.168.0.1~192.168.0.254>
+[rs232Net3] <192.168.0.7~255.255.0.0~192.168.0.1~1235>
+[kvmName] <kvm1Name~kvm2Name~kvm3Name>
+[kvm1ChName] <kvm1Ch1Name~kvm1Ch2Name~kvm1Ch3Name~kvm1Ch4Name~kvm1ChAllName>
+[kvm2ChName] <kvm2Ch1Name~kvm2Ch2Name~kvm2Ch3Name~kvm2Ch4Name~kvm2ChAllName>
+[kvm3ChName] <kvm3Ch1Name~kvm3Ch2Name~kvm3Ch3Name~kvm3Ch4Name~kvm3ChAllName>
+
+
+
+
+
+
+[socket_ip]		<192.168.0.7>
+[socket_port]		<1234>
+[chEnable]    		<1~1~1~1>
+[fullScr]    		<0~0~0~0>
+[splitMode]    		<0~0~0~1>
+[inputSource]    	<0~0~0~0>
+[resolution_cnt] 	<1>
+[comPort_cnt]		<3>
+[userSave1]		<15~0~8~0~0~0>
+[userSave2]	<15~0~8~0~0~0>
+[userSave3]	<15~0~8~0~0~0>
+[userSave4]	<15~0~8~0~0~0>
+[userSave5]	<15~0~8~0~0~0>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+﻿2   install java8:
+    sudo apt-get install oracle-java8-jdk
+
+
+
+3   insta scr_split
+    xxxxxxxxxxxxxxxxxxxxxx
+//======================================    
+2 Copy "scr_split_exe" folder to  "/home/pi/kevin/" 
+5 pi@raspberry:~ $ mkdir .config/autostart 
+6 copy autostart.desktop to "/home/pi/.config/autostart/" 
